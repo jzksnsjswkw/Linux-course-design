@@ -1,0 +1,244 @@
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.bg img {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+.logo img {
+	position: absolute;
+	top: 20px;
+	left: 13%;
+}
+
+.other {
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+}
+
+.other li:first-child {
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.wechat {
+	height: 37px;
+	vertical-align: center;
+	margin-top: 30px;
+	position: relative;
+}
+
+.wechat .icon {
+	float: left;
+	width: 34px;
+	height: 34px;
+	background-color: rgba(255, 255, 255, 0.8);
+	background-image: url(../img/icons.png);
+	background-size: 360px;
+	background-position: -57px -114px;
+	background-repeat: no-repeat;
+}
+
+.a .text {
+	float: left;
+	width: 224px;
+	padding-left: 10px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 34px;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.wechat div {
+	width: 100%;
+	position: absolute;
+	top: 34px;
+	font-size: 20px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 100px;
+	height: 0;
+	overflow: hidden;
+	transition: 0.3s;
+	z-index: 10;
+}
+
+.wechat:hover .icon {
+	background-color: rgba(255, 255, 255, 0.9);
+	background-size: 225px;
+	background-position: -49px -87px;
+}
+
+.a:hover .text {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.wechat:hover div {
+	height: 100px;
+}
+
+.school {
+	margin-top: 20px;
+	position: relative;
+}
+
+.school .icon {
+	background-color: rgba(255, 255, 255, 0.8);
+	float: left;
+	width: 34px;
+	height: 34px;
+	background-image: url(../img/qrcode.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.school div {
+	width: 100%;
+	position: absolute;
+	top: 34px;
+	font-size: 20px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 100px;
+	height: 0;
+	overflow: hidden;
+	transition: 0.3s;
+	z-index: 9;
+}
+
+.school:hover .icon {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.school:hover div {
+	height: 100px;
+}
+
+.login {
+	width: 339px;
+	height: 291px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 200px;
+	margin: auto 0;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.login > div:first-child {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 13px;
+	color: #676a6c;
+}
+
+.login .icon {
+	float: left;
+	width: 33px;
+	height: 32px;
+	background-image: url(../img/icons.png);
+	background-size: 360px;
+	background-color: pink;
+	border: 1px solid #ccc;
+	border-right: none;
+	background-color: rgb(242, 242, 242);
+}
+
+.number {
+	width: 269px;
+	margin: 40px auto 0 auto;
+}
+
+.number-icon {
+	background-position: 5px -81px;
+}
+
+.password {
+	width: 269px;
+	margin: 30px auto 0 auto;
+}
+
+.password-icon {
+	background-position: -141px -52px;
+}
+
+.login input {
+	width: 209px;
+	height: 16px;
+	padding: 8px 12px;
+	border: 1px solid #ccc;
+}
+
+.login input:focus {
+	outline: none;
+}
+
+.footer {
+	color: #fff;
+	width: 520px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.free {
+	width: 200px;
+	height: 23px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.free input {
+	float: left;
+	width: 23px;
+	height: 23px;
+	margin-right: 10px;
+}
+
+.free div {
+	float: left;
+	font-size: 12px;
+	color: #676a6c;
+	line-height: 28px;
+}
+
+.login .submit {
+	width: 269px;
+	height: 50px;
+	margin-left: 35px;
+	margin-top: 15px;
+	background-color: #1ab394;
+	color: #fff;
+	text-align: center;
+}
+
+.login .submit:hover {
+	background-color: #18a689;
+}
+
+.footer .en {
+	float: left;
+}
+
+.footer .zh {
+	float: right;
+}
